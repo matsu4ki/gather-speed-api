@@ -1,0 +1,5 @@
+module.exports = {
+  API_KEY: 'sample',
+  SPACE: 'sample',
+  ID: 'sample',
+};
