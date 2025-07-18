@@ -2,11 +2,15 @@ Gatherで人の速度を上げるためのアプリ
 ========================
 
 macなら、bunが入っていればdistにバイナリファイルを生成する感じ。
-第一引数は速度で、デフォルトは1.0。
+第一引数は速度で、デフォルトは1.0。10にしたら吹き飛ぶ。
 試したところ、小数点の対応もしているみたい。0.1とかにすると全然歩けない。
 
 ```bash
+# binary(need bun build)
 ./gather-speed-api 5
+# node
+npm i
+node index.js 5
 ```
 
 LICENSE: MIT License
